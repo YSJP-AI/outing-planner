@@ -1,0 +1,281 @@
+[
+  {
+    "id": "rst-ike-001",
+    "title": "池袋西口 立ち食いそば・定食街",
+    "genres": [
+      "グルメ",
+      "そば",
+      "定食"
+    ],
+    "area": "池袋",
+    "venue": "池袋駅西口周辺",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 800,
+    "priceMax": 1500,
+    "priceText": "800〜1,500円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "駅チカで昼も夜も使いやすい人気の食事エリア。",
+    "lat": 35.7305,
+    "lng": 139.7095
+  },
+  {
+    "id": "rst-ike-002",
+    "title": "サンシャインシティ周辺ランチ",
+    "genres": [
+      "グルメ",
+      "定食"
+    ],
+    "area": "池袋",
+    "venue": "アルパ／ナンジャタウン周辺",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 70,
+    "priceMin": 1200,
+    "priceMax": 2500,
+    "priceText": "1,200〜2,500円目安",
+    "source": "hotspot",
+    "sourceURL": "https://sunshinecity.jp/",
+    "summary": "水族館や展望台と組み合わせやすい食事スポット。",
+    "lat": 35.7291,
+    "lng": 139.7192
+  },
+  {
+    "id": "rst-ike-003",
+    "title": "池袋東口ラーメン人気店巡り",
+    "genres": [
+      "グルメ",
+      "ラーメン"
+    ],
+    "area": "池袋",
+    "venue": "東口ラーメンストリート周辺",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 1000,
+    "priceMax": 1800,
+    "priceText": "1,000〜1,800円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.enjoytokyo.jp/",
+    "summary": "夜のごはんや締めにも向く定番エリア。",
+    "lat": 35.7298,
+    "lng": 139.713
+  },
+  {
+    "id": "rst-sjk-001",
+    "title": "新宿思い出横丁で夕食",
+    "genres": [
+      "グルメ",
+      "焼鳥",
+      "和食"
+    ],
+    "area": "新宿",
+    "venue": "思い出横丁",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 75,
+    "priceMin": 2500,
+    "priceMax": 5000,
+    "priceText": "2,500〜5,000円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "新宿駅近くの人気夜ごはんエリア。",
+    "lat": 35.6915,
+    "lng": 139.6995
+  },
+  {
+    "id": "rst-sjk-002",
+    "title": "新宿南口ランチ（ルミネ周辺）",
+    "genres": [
+      "グルメ",
+      "定食"
+    ],
+    "area": "新宿",
+    "venue": "新宿南口",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 1200,
+    "priceMax": 2500,
+    "priceText": "1,200〜2,500円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.enjoytokyo.jp/",
+    "summary": "買い物や都庁散策の合間に便利。",
+    "lat": 35.6888,
+    "lng": 139.7003
+  },
+  {
+    "id": "rst-sby-001",
+    "title": "渋谷センター街ランチ",
+    "genres": [
+      "グルメ",
+      "定食"
+    ],
+    "area": "渋谷",
+    "venue": "センター街周辺",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 1200,
+    "priceMax": 2800,
+    "priceText": "1,200〜2,800円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "渋谷駅からすぐの人気ランチエリア。",
+    "lat": 35.6598,
+    "lng": 139.7008
+  },
+  {
+    "id": "rst-sby-002",
+    "title": "恵比寿・代官山ディナー",
+    "genres": [
+      "グルメ",
+      "カフェ"
+    ],
+    "area": "恵比寿",
+    "venue": "恵比寿西・代官山寄り",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 90,
+    "priceMin": 3500,
+    "priceMax": 8000,
+    "priceText": "3,500〜8,000円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "渋谷から一本で行ける落ち着いた夕食エリア。",
+    "lat": 35.6469,
+    "lng": 139.7101
+  },
+  {
+    "id": "rst-uen-001",
+    "title": "上野アメ横ランチ",
+    "genres": [
+      "グルメ",
+      "和食",
+      "定食"
+    ],
+    "area": "上野",
+    "venue": "アメヤ横丁",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 1000,
+    "priceMax": 2500,
+    "priceText": "1,000〜2,500円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.enjoytokyo.jp/",
+    "summary": "上野駅近の定番・にぎやかな昼食スポット。",
+    "lat": 35.7115,
+    "lng": 139.7748
+  },
+  {
+    "id": "rst-asa-001",
+    "title": "浅草寺周辺の名物ランチ",
+    "genres": [
+      "グルメ",
+      "和食",
+      "天ぷら"
+    ],
+    "area": "浅草",
+    "venue": "仲見世・花やしき通り周辺",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 60,
+    "priceMin": 1000,
+    "priceMax": 2200,
+    "priceText": "1,000〜2,200円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "観光の合間に人気の食事エリア。",
+    "lat": 35.7125,
+    "lng": 139.796
+  },
+  {
+    "id": "rst-tok-001",
+    "title": "東京駅グランスタで昼食",
+    "genres": [
+      "グルメ",
+      "海鮮",
+      "定食"
+    ],
+    "area": "丸の内",
+    "venue": "グランスタ東京",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 55,
+    "priceMin": 1200,
+    "priceMax": 3000,
+    "priceText": "1,200〜3,000円目安",
+    "source": "official",
+    "sourceURL": "https://www.gransta.jp/",
+    "summary": "東京駅ナカで済ませられる人気の食事処。",
+    "lat": 35.6814,
+    "lng": 139.7671
+  },
+  {
+    "id": "rst-tok-002",
+    "title": "丸の内・有楽町ディナー",
+    "genres": [
+      "グルメ",
+      "和食"
+    ],
+    "area": "有楽町",
+    "venue": "有楽町・銀座寄り",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 90,
+    "priceMin": 4000,
+    "priceMax": 10000,
+    "priceText": "4,000〜10,000円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "仕事帰りや夜のお出かけ向けの人気エリア。",
+    "lat": 35.6751,
+    "lng": 139.7633
+  },
+  {
+    "id": "rst-rop-001",
+    "title": "六本木ヒルズ周辺ランチ",
+    "genres": [
+      "グルメ",
+      "イタリアン"
+    ],
+    "area": "六本木",
+    "venue": "六本木ヒルズ",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 70,
+    "priceMin": 1500,
+    "priceMax": 3500,
+    "priceText": "1,500〜3,500円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "美術館や展望と組み合わせやすい。",
+    "lat": 35.6604,
+    "lng": 139.7292
+  },
+  {
+    "id": "rst-kic-001",
+    "title": "吉祥寺ハモニカ横丁で食事",
+    "genres": [
+      "グルメ",
+      "焼鳥",
+      "和食"
+    ],
+    "area": "吉祥寺",
+    "venue": "ハモニカ横丁",
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 70,
+    "priceMin": 1500,
+    "priceMax": 4000,
+    "priceText": "1,500〜4,000円目安",
+    "source": "hotspot",
+    "sourceURL": "https://www.gotokyo.org/",
+    "summary": "井の頭公園の前後に人気の食事エリア。",
+    "lat": 35.7033,
+    "lng": 139.5798
+  }
+]

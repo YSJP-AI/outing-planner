@@ -1,0 +1,182 @@
+[
+  {
+    "id": "wp-adf495712f",
+    "title": "上野 印象派コレクション展",
+    "genres": [
+      "アート"
+    ],
+    "area": "上野",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-ueno-art-2026/",
+    "summary": "Walkerplus（東京）から取得: 上野 印象派コレクション展",
+    "lat": 35.7141,
+    "lng": 139.7774
+  },
+  {
+    "id": "wp-4d597aa17a",
+    "title": "浅草寺ナイトウォーク",
+    "genres": [
+      "エンタメ"
+    ],
+    "area": "浅草",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-asakusa-night/",
+    "summary": "Walkerplus（東京）から取得: 浅草寺ナイトウォーク",
+    "lat": 35.711,
+    "lng": 139.7967
+  },
+  {
+    "id": "wp-f01c39b807",
+    "title": "渋谷スクランブル交差点フォトウォーク",
+    "genres": [
+      "エンタメ"
+    ],
+    "area": "渋谷",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-shibuya-photo/",
+    "summary": "Walkerplus（東京）から取得: 渋谷スクランブル交差点フォトウォーク",
+    "lat": 35.658,
+    "lng": 139.7016
+  },
+  {
+    "id": "wp-9d03d6f32b",
+    "title": "六本木デザイン展",
+    "genres": [
+      "アート"
+    ],
+    "area": "六本木",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-roppongi-design/",
+    "summary": "Walkerplus（東京）から取得: 六本木デザイン展",
+    "lat": 35.6627,
+    "lng": 139.731
+  },
+  {
+    "id": "wp-6d2f8a95f1",
+    "title": "築地場外 食べ歩きグルメツアー",
+    "genres": [
+      "グルメ"
+    ],
+    "area": "築地",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 90,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-tsukiji-gourmet/",
+    "summary": "Walkerplus（東京）から取得: 築地場外 食べ歩きグルメツアー",
+    "lat": 35.6654,
+    "lng": 139.7707
+  },
+  {
+    "id": "wp-e379eea981",
+    "title": "お台場 海風サイクル体験",
+    "genres": [
+      "体験"
+    ],
+    "area": "お台場",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-odaiba-cycle/",
+    "summary": "Walkerplus（東京）から取得: お台場 海風サイクル体験",
+    "lat": 35.6294,
+    "lng": 139.7794
+  },
+  {
+    "id": "wp-cc194505a1",
+    "title": "井の頭公園 ボート＆自然散策",
+    "genres": [
+      "自然"
+    ],
+    "area": "吉祥寺",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 150,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-kichijoji-park/",
+    "summary": "Walkerplus（東京）から取得: 井の頭公園 ボート＆自然散策",
+    "lat": 35.7,
+    "lng": 139.573
+  },
+  {
+    "id": "wp-6d9a3a13cc",
+    "title": "丸の内 建築ライトアップ鑑賞",
+    "genres": [
+      "エンタメ"
+    ],
+    "area": "丸の内",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/tokyo-marunouchi-light/",
+    "summary": "Walkerplus（東京）から取得: 丸の内 建築ライトアップ鑑賞",
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  {
+    "id": "wp-74bc9b444a",
+    "title": "上野 印象派コレクション展",
+    "genres": [
+      "アート"
+    ],
+    "area": "上野",
+    "venue": null,
+    "startAt": null,
+    "endAt": null,
+    "durationMinutes": 120,
+    "priceMin": null,
+    "priceMax": null,
+    "priceText": "料金は情報元を確認",
+    "source": "walkerplus",
+    "sourceURL": "https://www.walkerplus.com/event/dup/",
+    "summary": "Walkerplus（東京）から取得: 上野 印象派コレクション展",
+    "lat": 35.7141,
+    "lng": 139.7774
+  }
+]

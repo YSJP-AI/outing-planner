@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-19T13:31:56Z",
+  "note": "Free remote catalog for OutingPlanner. Edit and push to update app via 更新 button.",
+  "events": [
+    {
+      "id": "season-odaiba-drone-2026",
+      "title": "ODAIBA DRONE SHOW 2026",
+      "genres": [
+        "エンタメ",
+        "映え",
+        "祭り"
+      ],
+      "area": "お台場",
+      "venue": "お台場海浜公園マリンハウス前",
+      "startAt": "2026-09-18T19:00:00+09:00",
+      "endAt": "2026-09-22T21:30:00+09:00",
+      "durationMinutes": 90,
+      "priceMin": 0,
+      "priceMax": 0,
+      "priceText": "観覧無料（予約不要）",
+      "source": "official",
+      "sourceURL": "https://odaibadrone.com/",
+      "summary": "シルバーウィーク第2期（9/18–22）。1,000機のドローンが夜空にPixel Moonや人気キャラクターを描く大型ショー。各日19:00・21:00頃／約30分。東京アクアシンフォニーとも連動。",
+      "lat": 35.6294,
+      "lng": 139.7755
+    },
+    {
+      "id": "season-aqua-symphony-2026-sep",
+      "title": "東京アクアシンフォニー×ドローン特別演出",
+      "genres": [
+        "エンタメ",
+        "映え"
+      ],
+      "area": "お台場",
+      "venue": "お台場海浜公園 東京アクアシンフォニー",
+      "startAt": "2026-09-18T19:00:00+09:00",
+      "endAt": "2026-09-22T21:30:00+09:00",
+      "durationMinutes": 60,
+      "priceMin": 0,
+      "priceMax": 0,
+      "priceText": "観覧無料",
+      "source": "official",
+      "sourceURL": "https://tokyoaquasymphony.jp/news/858/",
+      "summary": "ドローンショー期間中、海上噴水と連続上演する特別プログラム。夜のお台場散策とセットで楽しめる。",
+      "lat": 35.6302,
+      "lng": 139.7768
+    },
+    {
+      "id": "season-hanayashiki-sw-2026",
+      "title": "花やしきのうきうきシルバーウィーク2026",
+      "genres": [
+        "エンタメ",
+        "体験",
+        "祭り"
+      ],
+      "area": "浅草",
+      "venue": "浅草花やしき",
+      "startAt": "2026-09-19T10:00:00+09:00",
+      "endAt": "2026-09-23T21:00:00+09:00",
+      "durationMinutes": 180,
+      "priceMin": 2500,
+      "priceMax": 2800,
+      "priceText": "入場料金は公式で確認",
+      "source": "official",
+      "sourceURL": "https://www.hanayashiki.net/events/event/SilverWeek2026/",
+      "summary": "9/19–23の特別営業。かわら割・人間クレーン・キャラクターショーなど家族向けコンテンツが充実。夜21時まで延長日あり。",
+      "lat": 35.7154,
+      "lng": 139.7942
+    },
+    {
+      "id": "season-tokyo-tower-kids-sw-2026",
+      "title": "東京タワー キッズフェスティバル2026",
+      "genres": [
+        "体験",
+        "エンタメ"
+      ],
+      "area": "芝公園",
+      "venue": "東京タワー1F 正面玄関前",
+      "startAt": "2026-09-21T10:30:00+09:00",
+      "endAt": "2026-09-23T17:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 0,
+      "priceMax": 1200,
+      "priceText": "縁日は有料／紙芝居観覧無料",
+      "source": "official",
+      "sourceURL": "https://www.tokyotower.co.jp/event/swkidsfes2026/",
+      "summary": "シルバーウィーク祝日の縁日・紙芝居SHOW。メインデッキチケット提示で縁日がお得。",
+      "lat": 35.6586,
+      "lng": 139.7454
+    },
+    {
+      "id": "season-oktoberfest-shiba-2026",
+      "title": "オクトーバーフェスト2026 in 芝公園",
+      "genres": [
+        "グルメ",
+        "祭り",
+        "エンタメ"
+      ],
+      "area": "芝公園",
+      "venue": "芝公園",
+      "startAt": "2026-09-11T11:00:00+09:00",
+      "endAt": "2026-09-23T21:00:00+09:00",
+      "durationMinutes": 150,
+      "priceMin": 0,
+      "priceMax": 5000,
+      "priceText": "入場無料（飲食別）",
+      "source": "enjoytokyo",
+      "sourceURL": "https://www.oktober-fest.jp/shiba/",
+      "summary": "東京タワーを望む芝公園のビール祭り。平日夕〜夜／土日祝は昼から。入場料あり（未就学児無料）。",
+      "lat": 35.6575,
+      "lng": 139.7485
+    },
+    {
+      "id": "season-curry-expo-2026",
+      "title": "東京カレー万博2026",
+      "genres": [
+        "グルメ",
+        "祭り"
+      ],
+      "area": "新宿",
+      "venue": "大久保公園",
+      "startAt": "2026-09-11T11:00:00+09:00",
+      "endAt": "2026-10-07T21:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 0,
+      "priceMax": 3000,
+      "priceText": "入場無料（飲食別）",
+      "source": "official",
+      "sourceURL": "https://tokyocurry.info/",
+      "summary": "全国のカレー店が大久保公園に集結。昼〜夕方の食べ歩きにぴったり。",
+      "lat": 35.6955,
+      "lng": 139.7003
+    },
+    {
+      "id": "season-meat-foodfes-2026",
+      "title": "TOKYO MEAT FOODFES",
+      "genres": [
+        "グルメ",
+        "祭り"
+      ],
+      "area": "芝公園",
+      "venue": "東京タワー南側駐車場特設会場",
+      "startAt": "2026-09-19T11:00:00+09:00",
+      "endAt": "2026-09-23T21:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 0,
+      "priceMax": 4000,
+      "priceText": "入場無料（飲食別）",
+      "source": "enjoytokyo",
+      "sourceURL": "https://www.enjoytokyo.jp/search/?q=TOKYO%20MEAT%20FOODFES",
+      "summary": "シルバーウィーク注目の肉フェス。東京タワー周辺で開催。",
+      "lat": 35.657,
+      "lng": 139.7458
+    },
+    {
+      "id": "season-daikanyama-soryosai-2026",
+      "title": "代官山 爽涼祭 2026",
+      "genres": [
+        "祭り",
+        "ショッピング",
+        "映え"
+      ],
+      "area": "代官山",
+      "venue": "代官山T-SITE周辺",
+      "startAt": "2026-09-18T10:00:00+09:00",
+      "endAt": "2026-09-20T20:00:00+09:00",
+      "durationMinutes": 150,
+      "priceMin": 0,
+      "priceMax": 2000,
+      "priceText": "入場無料（物販・体験は別）",
+      "source": "official",
+      "sourceURL": "https://realtsite.jp/daikanyama/",
+      "summary": "縁日・マーケット・キッチンカーが集まる代官山の秋イベント。",
+      "lat": 35.649,
+      "lng": 139.7034
+    },
+    {
+      "id": "season-peace-day-2026",
+      "title": "PEACE DAY 2026＠代々木公園",
+      "genres": [
+        "祭り",
+        "エンタメ",
+        "自然"
+      ],
+      "area": "代々木",
+      "venue": "代々木公園",
+      "startAt": "2026-09-21T11:00:00+09:00",
+      "endAt": "2026-09-21T20:00:00+09:00",
+      "durationMinutes": 180,
+      "priceMin": 0,
+      "priceMax": 0,
+      "priceText": "入場無料",
+      "source": "official",
+      "sourceURL": "https://peaceday.jp/",
+      "summary": "敬老の日に代々木公園で開催される平和・音楽・フードの一日イベント。",
+      "lat": 35.6717,
+      "lng": 139.6949
+    },
+    {
+      "id": "season-ueno-zoku-natsu-2026",
+      "title": "上野ゾク夏まつり（シルバーウィーク）",
+      "genres": [
+        "祭り",
+        "エンタメ"
+      ],
+      "area": "上野",
+      "venue": "上野公園周辺",
+      "startAt": "2026-09-19T12:00:00+09:00",
+      "endAt": "2026-09-23T21:00:00+09:00",
+      "durationMinutes": 150,
+      "priceMin": 0,
+      "priceMax": 3000,
+      "priceText": "観覧無料（体験・飲食は別）",
+      "source": "enjoytokyo",
+      "sourceURL": "https://www.enjoytokyo.jp/search/?q=%E4%B8%8A%E9%87%8E%E3%82%BE%E3%82%AF%E5%A4%8F",
+      "summary": "シルバーウィーク期間の上野エリア催事。夜遅めまで楽しめるプログラムあり。",
+      "lat": 35.7148,
+      "lng": 139.7717
+    },
+    {
+      "id": "tok-001",
+      "title": "上野の森美術館 印象派コレクション展",
+      "genres": [
+        "アート"
+      ],
+      "area": "上野",
+      "venue": "上野の森美術館",
+      "startAt": "2026-09-20T10:00:00+09:00",
+      "endAt": "2026-09-20T17:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 1800,
+      "priceMax": 1800,
+      "priceText": "一般 1,800円",
+      "source": "walkerplus",
+      "sourceURL": "https://www.walkerplus.com/",
+      "summary": "東京・上野で楽しむ印象派の名作展。半日プラン向き。",
+      "lat": 35.7185,
+      "lng": 139.7745
+    },
+    {
+      "id": "tok-003",
+      "title": "チームラボプラネッツ TOKYO",
+      "genres": [
+        "エンタメ",
+        "アート"
+      ],
+      "area": "豊洲",
+      "venue": "チームラボプラネッツ TOKYO DMM",
+      "startAt": "2026-09-20T09:00:00+09:00",
+      "endAt": "2026-09-20T22:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 3800,
+      "priceMax": 4200,
+      "priceText": "日時指定 3,800円〜",
+      "source": "enjoytokyo",
+      "sourceURL": "https://www.enjoytokyo.jp/",
+      "summary": "没入型デジタルアート。事前予約推奨。",
+      "lat": 35.6495,
+      "lng": 139.7898
+    },
+    {
+      "id": "tok-005",
+      "title": "築地場外市場 食べ歩きランチ",
+      "genres": [
+        "グルメ"
+      ],
+      "area": "築地",
+      "venue": "築地場外市場",
+      "startAt": "2026-09-21T09:00:00+09:00",
+      "endAt": "2026-09-21T14:00:00+09:00",
+      "durationMinutes": 90,
+      "priceMin": 1500,
+      "priceMax": 3500,
+      "priceText": "1,500〜3,500円目安",
+      "source": "walkerplus",
+      "sourceURL": "https://www.walkerplus.com/",
+      "summary": "海鮮丼や玉子焼きなど、短時間で東京らしさを味わえる。",
+      "lat": 35.6654,
+      "lng": 139.7707
+    },
+    {
+      "id": "tok-008",
+      "title": "国立新美術館 デザイン展",
+      "genres": [
+        "アート"
+      ],
+      "area": "六本木",
+      "venue": "国立新美術館",
+      "startAt": "2026-09-19T10:00:00+09:00",
+      "endAt": "2026-09-23T18:00:00+09:00",
+      "durationMinutes": 120,
+      "priceMin": 2200,
+      "priceMax": 2200,
+      "priceText": "一般 2,200円",
+      "source": "walkerplus",
+      "sourceURL": "https://www.walkerplus.com/",
+      "summary": "六本木で過ごすアート半日。近隣カフェと組み合わせやすい。",
+      "lat": 35.6652,
+      "lng": 139.7264
+    },
+    {
+      "id": "tok-010",
+      "title": "神楽坂 石畳ディナー散策",
+      "genres": [
+        "グルメ"
+      ],
+      "area": "神楽坂",
+      "venue": "神楽坂通り周辺",
+      "startAt": "2026-09-20T17:00:00+09:00",
+      "endAt": "2026-09-20T22:00:00+09:00",
+      "durationMinutes": 150,
+      "priceMin": 4000,
+      "priceMax": 8000,
+      "priceText": "4,000〜8,000円目安",
+      "source": "manual",
+      "sourceURL": "https://www.gotokyo.org/",
+      "summary": "夜のお出かけ向け。落ち着いた東京の隠れ家エリア。",
+      "lat": 35.7022,
+      "lng": 139.74
+    }
+  ]
+}
