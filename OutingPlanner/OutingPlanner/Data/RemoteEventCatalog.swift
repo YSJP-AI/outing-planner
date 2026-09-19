@@ -13,25 +13,72 @@ struct RemoteEventCatalogPayload: Codable, Equatable {
 }
 
 enum RemoteEventCatalogConfig {
-    /// Public GitHub raw JSON (no API key, no paid hosting).
-    static let catalogURL = URL(
+    /// Public GitHub raw JSON (no API key). Repo must be public for anonymous downloads.
+    static let defaultCatalogURL = URL(
         string: "https://raw.githubusercontent.com/YSJP-AI/outing-planner/main/remote/events.json"
     )!
+
+    static let jsDelivrCatalogURL = URL(
+        string: "https://cdn.jsdelivr.net/gh/YSJP-AI/outing-planner@main/remote/events.json"
+    )!
+
+    private static let overrideKey = "outing.remoteCatalogURL"
+
+    static var catalogURL: URL {
+        if let raw = UserDefaults.standard.string(forKey: overrideKey)?
+            .trimmingCharacters(in: .whitespacesAndNewlines),
+           !raw.isEmpty,
+           let url = URL(string: raw) {
+            return url
+        }
+        return defaultCatalogURL
+    }
+
+    static func setCatalogURLOverride(_ raw: String?) {
+        let trimmed = raw?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+        if trimmed.isEmpty {
+            UserDefaults.standard.removeObject(forKey: overrideKey)
+        } else {
+            UserDefaults.standard.set(trimmed, forKey: overrideKey)
+        }
+    }
+
+    static var catalogURLOverride: String {
+        UserDefaults.standard.string(forKey: overrideKey) ?? ""
+    }
 }
 
 actor RemoteEventCatalogClient {
     private let session: URLSession
-    private let url: URL
 
-    init(
-        url: URL = RemoteEventCatalogConfig.catalogURL,
-        session: URLSession = .shared
-    ) {
-        self.url = url
+    init(session: URLSession = .shared) {
         self.session = session
     }
 
-    func fetch() async throws -> RemoteEventCatalogPayload {
+    func fetch(preferredURL: URL? = nil) async throws -> RemoteEventCatalogPayload {
+        var candidates: [URL] = []
+        if let preferredURL {
+            candidates.append(preferredURL)
+        }
+        let configured = RemoteEventCatalogConfig.catalogURL
+        candidates.append(configured)
+        if configured == RemoteEventCatalogConfig.defaultCatalogURL {
+            candidates.append(RemoteEventCatalogConfig.jsDelivrCatalogURL)
+        }
+
+        var lastError: Error = RemoteCatalogError.invalidResponse
+        var seen = Set<String>()
+        for url in candidates where seen.insert(url.absoluteString).inserted {
+            do {
+                return try await fetch(url: url)
+            } catch {
+                lastError = error
+            }
+        }
+        throw lastError
+    }
+
+    private func fetch(url: URL) async throws -> RemoteEventCatalogPayload {
         var request = URLRequest(url: url)
         request.cachePolicy = .reloadIgnoringLocalCacheData
         request.timeoutInterval = 30
@@ -42,6 +89,9 @@ actor RemoteEventCatalogClient {
             throw RemoteCatalogError.invalidResponse
         }
         guard (200...299).contains(http.statusCode) else {
+            if http.statusCode == 404 {
+                throw RemoteCatalogError.notFound
+            }
             throw RemoteCatalogError.httpStatus(http.statusCode)
         }
 
@@ -50,7 +100,6 @@ actor RemoteEventCatalogClient {
         do {
             return try decoder.decode(RemoteEventCatalogPayload.self, from: data)
         } catch {
-            // Allow plain array payloads too.
             let events = try decoder.decode([OutingEvent].self, from: data)
             return RemoteEventCatalogPayload(
                 version: 1,
@@ -65,6 +114,7 @@ actor RemoteEventCatalogClient {
 enum RemoteCatalogError: LocalizedError {
     case invalidResponse
     case httpStatus(Int)
+    case notFound
     case emptyCatalog
 
     var errorDescription: String? {
@@ -72,7 +122,9 @@ enum RemoteCatalogError: LocalizedError {
         case .invalidResponse:
             return "サーバー応答を解釈できませんでした。"
         case .httpStatus(let code):
-            return "更新に失敗しました（HTTP \(code)）。ネットワークと GitHub 公開設定を確認してください。"
+            return "更新に失敗しました（HTTP \(code)）。ネットワークを確認してください。"
+        case .notFound:
+            return "カタログが見つかりません。GitHubリポジトリが非公開の場合は公開するか、公開URLを設定してください。"
         case .emptyCatalog:
             return "取得したイベント一覧が空でした。"
         }

@@ -147,6 +147,24 @@ struct ProposalsView: View {
             Text("無料の公開カタログから最新の期間限定イベントを取得します。通信料以外の追加料金はかかりません。")
                 .font(.caption2)
                 .foregroundStyle(DesignTokens.muted)
+
+            DisclosureGroup("上級: カタログURL") {
+                TextField(
+                    "https://…/events.json",
+                    text: Binding(
+                        get: { RemoteEventCatalogConfig.catalogURLOverride },
+                        set: { RemoteEventCatalogConfig.setCatalogURLOverride($0) }
+                    )
+                )
+                .textInputAutocapitalization(.never)
+                .autocorrectionDisabled()
+                .font(.caption)
+                Text("空欄なら GitHub の remote/events.json を使います。リポジトリが非公開のときは、公開 gist などの HTTPS URL を入れてください。")
+                    .font(.caption2)
+                    .foregroundStyle(DesignTokens.muted)
+            }
+            .font(.caption.weight(.semibold))
+            .foregroundStyle(DesignTokens.sky)
         }
         .padding(16)
         .flatCard(cornerRadius: 20)
